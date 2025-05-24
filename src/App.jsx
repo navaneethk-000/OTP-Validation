@@ -1,6 +1,4 @@
-import { useRef, useState } from "react";
-import "./App.css";
-import { useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 
 function App() {
   const OTP_DIGITS_COUNT = 5;
