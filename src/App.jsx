@@ -3,7 +3,6 @@ import "./App.css";
 import { useEffect } from "react";
 
 function App() {
-  //1 . Define the number of input fields
   const OTP_DIGITS_COUNT = 5;
   const [inputArr, setInputArr] = useState(
     new Array(OTP_DIGITS_COUNT).fill("")
